@@ -1,0 +1,120 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+  }
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #00509e;
+    color: white;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    background: #ffcc00;
+    color: #222;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .hero .btn:hover {
+    background: #e6b800;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    color: #00509e;
+  }
+  .skills-list {
+    list-style: square;
+    margin-left: 1.5rem;
+  }
+  .project {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .project h3 {
+    color: #222;
+  }
+  
+  /* Contact */
+  #contact a {
+    color: #00509e;
+    text-decoration: none;
+  }
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* Makes it circular */
+    object-fit: cover;  /* Crops nicely */
+    margin: 1rem 0;
+    border: 3px solid #00509e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
