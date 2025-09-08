@@ -73,4 +73,131 @@ body {
   #contact a:hover {
     text-decoration: underline;
   }
+  /* Projects Section Styling */
+.project-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-list li {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Different background colors for each project */
+  .project-list li:nth-child(1) {
+    background: #2196f3; /* Blue */
+  }
+  .project-list li:nth-child(2) {
+    background: #4caf50; /* Green */
+  }
+  .project-list li:nth-child(3) {
+    background: #ff9800; /* Orange */
+  }
+  /* ======================= */
+/* Skills Section Styling  */
+/* ======================= */
+.skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Different background colors */
+  .skills-list li:nth-child(1) { background: #673ab7; } /* Purple */
+  .skills-list li:nth-child(2) { background: #009688; } /* Teal */
+  .skills-list li:nth-child(3) { background: #f44336; } /* Red */
+  .skills-list li:nth-child(4) { background: #3f51b5; } /* Indigo */
+  .skills-list li:nth-child(5) { background: #ff5722; } /* Deep Orange */
+  .skills-list li:nth-child(6) { background: #795548; } /* Brown */
+  
+  /* ======================= */
+  /* Contact Section Styling */
+  /* ======================= */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .contact-list li:nth-child(1) { background: #607d8b; } /* Blue Grey */
+  .contact-list li:nth-child(2) { background: #9c27b0; } /* Purple */
+  .contact-list li:nth-child(3) { background: #e91e63; } /* Pink */
+  
+  /* Make links inside contact more visible */
+  .contact-list a {
+    color: #ffeb3b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .contact-list a:hover {
+    text-decoration: underline;
+  }
+  /* ======================= */
+/* Hover Effects for Cards */
+/* ======================= */
+.project-list li,
+.skills-list li,
+.contact-list li {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-list li:hover,
+.skills-list li:hover,
+.contact-list li:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2); /* Stronger shadow */
+}
+/* ======================= */
+/* About Section Styling   */
+/* ======================= */
+#about {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* Light blue gradient */
+    border-radius: 10px;
+    padding: 2em;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  #about h2 {
+    text-align: center;
+    color: #0d47a1; /* Deep blue */
+    margin-bottom: 1em;
+  }
+  
+  #about p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+  #about .profile-pic {
+    display: block;
+    margin: 0 auto 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #0d47a1;
+    object-fit: cover;
+  }
   
