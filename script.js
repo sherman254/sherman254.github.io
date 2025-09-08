@@ -1,12 +1,12 @@
-// Portfolio Script
-console.log("Portfolio Loaded!");
-
-// Example: Smooth scrolling for navbar links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
+function showSection(sectionId) {
+    // Hide all sections
+    document.querySelectorAll('.content-section').forEach(sec => {
+      sec.classList.remove('active');
     });
-  });
-});
+  
+    // Show the clicked section
+    const section = document.getElementById(sectionId);
+    section.classList.add('active');
+  }
+  
+  

@@ -1,100 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hillary Tumwet | Instrumentation & Control Engineer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherman | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <nav>
-      <h1>Hillary Tumwet</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showSection('about')">About</a></li>
+      <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+      <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Instrumentation & Control Engineer</h2>
-    <p>Specialized in Automation, Real-Time Operations & Analytics</p>
-    <a href="#contact" class="btn">Get in Touch</a>
-  </section>
-
-  <!-- About -->
-  <section id="about">
+  <!-- About Section -->
+  <section id="about" class="content-section active">
+    <img src="me.jpg" alt="Sherman" class="profile-pic" onerror="this.style.display='none'">
     <h2>About Me</h2>
-    <img src="me.jpg" alt="Noah Crisette" class="profile-pic" />
-      <p>
-      I hold a Bachelor's degree in Instrumentation and Control Engineering, with a strong foundation 
-      in automation, system integration, and real-time data monitoring. Currently, I work in the 
-      Real-Time Operations Department at <strong>Glovo</strong>, where I started as an agent and was 
-      promoted to Senior Agent due to my problem-solving skills and ability to optimize processes.
+    <p>
+      I am a Bachelor of Science graduate in Instrumentation & Control Engineering from Multimedia University of Kenya (Class of 2024). Currently, I work in the Real-Time Operations (RTO) Department at Glovo (via HCS Affiliates), where I started in the Docs Team and was later promoted to Senior Agent in the COE Team. 
     </p>
     <p>
-      Beyond engineering, I have developed strong skills in data analytics and workflow optimization 
-      using <strong>Google Sheets</strong> and <strong>Excel</strong>, while also expanding into web 
-      development with <strong>HTML</strong> and <strong>JavaScript</strong>. I combine my technical 
-      background with analytical and operational expertise to deliver reliable, efficient solutions.
+      My experience spans compliance verification, real-time monitoring of operational processes, escalation management, and advanced use of Excel and Google Sheets for accurate reporting. I also completed an internship at Instrumentation Limited Company where I gained hands-on expertise in calibration of industrial instruments (temperature, pressure, torque, force, current/voltage, etc.) and preparation of calibration certificates.  
+    </p>
+    <p>
+      Beyond engineering, I have developed strong skills in <b>Web Design and Development</b>, <b>Graphic Design</b>, and <b>Data Analysis tools (Excel & Google Sheets)</b> through LinkedIn Learning certifications sponsored by Glovo.
+    </p>
+    <p>
+      My career interests focus on <b>Instrumentation Engineering, Automation Systems, Real-Time Operations, and Technology-Driven Process Improvement</b>.
     </p>
   </section>
 
-  <!-- Skills -->
-  <section id="skills">
+  <!-- Skills Section -->
+  <section id="skills" class="content-section">
     <h2>Skills</h2>
-    <ul class="skills-list">
+    <ul>
       <li>Instrumentation & Control Engineering</li>
-      <li>Automation & Control Systems (PLC, SCADA, DCS)</li>
-      <li>System Integration & IoT Solutions</li>
-      <li>Real-Time Data Acquisition & Monitoring</li>
-      <li>Operations & Workflow Optimization</li>
-      <li>Analytics with Google Sheets & Excel</li>
-      <li>Web Development: HTML, CSS, JavaScript (learning)</li>
+      <li>Real-Time Operations & Analytics</li>
+      <li>Calibration of Industrial Instruments</li>
+      <li>Data Analysis (Excel, Google Sheets)</li>
+      <li>HTML, CSS, JavaScript (learning)</li>
+      <li>Web & Graphic Design</li>
     </ul>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
+  <!-- Projects Section -->
+  <!-- Projects Section -->
+<section id="projects" class="content-section">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Real-Time Operations Monitoring – Glovo</h3>
-      <p>
-        Managed real-time operations as a Senior Agent, optimizing delivery performance and 
-        supporting agents with analytical tools to improve response times.
-      </p>
-    </div>
-    <div class="project">
-      <h3>Automation in Manufacturing Plant</h3>
-      <p>
-        Contributed to the implementation of PLC and SCADA-based systems to streamline 
-        industrial processes and improve safety.
-      </p>
-    </div>
-    <div class="project">
-      <h3>Analytics Tools & Dashboards</h3>
-      <p>
-        Built automated reporting dashboards using Google Sheets and Excel to track 
-        performance metrics, KPIs, and efficiency in operations.
-      </p>
-    </div>
+    <ul>
+      <li>
+        <b>Boiler Monitoring System using Arduino</b> – Final Year Project at Multimedia University of Kenya. 
+        Designed and implemented a monitoring system for boiler parameters using sensors and Arduino microcontrollers.
+      </li>
+      <li>
+        <b>Payroll Tracker Dashboard (Excel + Google Sheets)</b> – Built an automated payroll system with 
+        integrated formulas and scripts that <b>generates payslips and emails them directly to employees</b>, 
+        saving HR significant processing time.
+      </li>
+      <li>
+        <b>Personal Portfolio Website</b> – Designed and deployed this professional portfolio using HTML, CSS, and JavaScript, hosted on GitHub Pages.
+      </li>
+    </ul>
   </section>
+  
 
-  <!-- Contact -->
-  <section id="contact">
+  <!-- Contact Section -->
+  <section id="contact" class="content-section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:hillarynyende03@gmail.com">hillarynyende03@gmail.com</a></p>
+    <p>Email: hillarynyende03@gmail.com</p>
     <p>LinkedIn: <a href="#">https://www.linkedin.com/in/hillary-tumwet-723b352b9/</a></p>
-    <p>GitHub: <a href="#">github.com/sherman254</a></p>
+    <p>GitHub: <a href="#">https://github.com/sherman254/sherman254.github.io/settings/pages</a></p>
   </section>
-
-  <footer>
-    <p>© 2025 Hillary Tumwet. All rights reserved.</p>
-  </footer>
 </body>
 </html>
